@@ -49,6 +49,7 @@ cd axbycz_calibration/main
 set(axbycz_calibration /path/to/axbycz_calibration)
 include_directories(/path/to/axbycz_calibration/util)
 include_directories(/path/to/axbycz_calibration/solvers)
+include_directories(/path/to/axbycz_calibration/data)
 
 # Compile and run the main script:
 g++ -o main_script mainRealData.cpp -O3 -std=c++17 -I/path/to/eigen
