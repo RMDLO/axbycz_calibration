@@ -5,19 +5,19 @@ AXB = YCZ extrinsic camera calibration of dual-arm robot using probabilistic met
 
 ## Taxonomy
 
-Knowns:
+**Knowns:**
 
-A - Transformation from base link to end effector of robot 1
-B - Transformation from camera to calibration board
-C - Transformation from base link to end effector of robot 2
+- A - Transformation from base link to end effector of robot 1
+- B - Transformation from camera to calibration board
+- C - Transformation from base link to end effector of robot 2
 
-Uknowns:
+**Unknowns:**
 
-X - Transformation from end-effector to camera
-Y - Transformation from base link of robot 1 to base link of robot 2
-Z - Transformation from end-effector to calibration board
+- X - Transformation from end-effector to camera
+- Y - Transformation from base link of robot 1 to base link of robot 2
+- Z - Transformation from end-effector to calibration board
 
-Calibration board - ChArUco 
+**Calibration board:** - ChArUco 
 
 ## Repository Structure
 
@@ -64,7 +64,7 @@ g++ -o main_script mainRealData.cpp -O3 -std=c++17 -I/path/to/eigen
 
 The original MATLAB implementation can be found here: https://github.com/ruansp/axbycz_calibration
 
-### Cite:
+### Cite
 ```
 @article{ma2018probabilistic,
   title={Probabilistic approaches to the AXB= YCZ AXB= YCZ calibration problem in multi-robot systems},
